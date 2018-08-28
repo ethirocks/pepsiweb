@@ -1,0 +1,128 @@
+html{
+	//overflow-y: scroll;
+}
+
+body{
+	margin: 0 auto;
+	background-color: white;
+	position: relative;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	color: black;
+}
+
+
+@media screen and (min-width: 500px) {
+.container1 {
+	display: flex;
+	color: black;
+}
+}
+
+.contain {
+	display: flex;
+	width:25%;
+}
+
+.slide{
+	padding: 2.7vw;
+	max-width: 27vw;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 2.3vw;
+    z-index:3;
+}
+
+li{
+	display: flex;
+	padding-right: 4vw;
+	padding-left: 2vw;
+    float: left;	
+    border-right: 0.1vw solid #bbb;
+}
+
+#logo{
+	height: 4vw;
+	width: 4vw;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.4vw 1.6vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.hero-image{
+    background-image: url("../images/hero-image.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.hero-text{
+	text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 50vw;
+    transform: translate(-50%, -200%);
+    color: pink;
+    font-size: 2vw;
+    background-color: black;
+}
+
+#text1{
+      text-align: center;
+}
+
+.details{
+	padding:2vw;
+	text-align: justify;
+	font-size: 1.5vw;
+}
+
+@media screen and (max-width: 400px) {
+	.details{
+		font-size: 3vw;
+	}
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.fa {
+    padding: 2vw;
+    font-size: 3vw;
+    width: 5vw;
+    text-decoration: none;
+    color: white;
+}
+form{
+	padding-bottom: 4vw;
+}
