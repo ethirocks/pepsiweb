@@ -91,11 +91,25 @@ li a:hover {
     transform: translate(-50%, -200%);
     color: pink;
     font-size: 2vw;
-    background-color: black;
+    text-shadow: 0.2vw 0.2vw black;
 }
 
 #text1{
       text-align: center;
+      color: red;
+	  text-shadow: 0.1vw 0.1vw black;
+}
+
+#p-h{
+	  text-align:center;
+	  color: red;
+	  text-shadow: 0.1vw 0.1vw black;
+
+}
+
+.im{
+	height: 10vw;
+	width: 10vw;
 }
 
 .details{
