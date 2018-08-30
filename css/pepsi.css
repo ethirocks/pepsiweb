@@ -138,6 +138,10 @@ li a:hover {
 	font-size: 1.5vw;
 }
 
+#product-image{
+	width:98%;
+}
+
 @media screen and (max-width: 400px) {
 	.details{
 		font-size: 3vw;
