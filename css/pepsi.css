@@ -10,12 +10,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*flexing the navbar*/
 .container {
 	display: flex;
 	color: black;
 }
 
-
+/*mobile first approach to make navbar more viewable*/
 @media screen and (min-width: 500px) {
 .container1 {
 	display: flex;
@@ -56,6 +57,8 @@ li{
     border-right: 0.1vw solid #bbb;
 }
 
+/*just show the logo in mobile view*/
+
 @media screen and (max-width: 400px) {
 
 .hide{
@@ -68,6 +71,7 @@ li{
 }
 }
 
+/*adjusting the logo size*/
 #logo{
 	height: 4vw;
 	width: 4vw;
@@ -85,6 +89,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+/*putting the hero image as background for the text*/
 
 .hero-image{
     background-image: url("../images/hero-image.png");
@@ -137,6 +143,8 @@ li a:hover {
 		font-size: 3vw;
 	}
 }
+
+/*styling the footer*/
 
 footer{
 	background-color: black;
