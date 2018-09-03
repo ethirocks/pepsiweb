@@ -1,0 +1,57 @@
+
+/*mobile first approach to make navbar more viewable*/
+@media screen and (min-width: 500px) {
+.container1 {
+	display: flex;
+	color: black;
+}
+}
+
+@media (min-width: 768px) {
+
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 550px) {
+
+  .header ul {
+  background-color: white;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+	.details{
+		font-size: 4vw;
+	}
+	.hero-image{
+		height: 200vw;
+	}
+	.hero-text{
+		font-size: 7vw;
+	}
+	#logo-img{
+	height: 6vw;
+	width: 6vw;
+}
+}
+
+@media screen and (max-width: 550px) {
+.fa{
+	font-size: 6vw;
+}
+}

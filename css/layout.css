@@ -1,0 +1,23 @@
+
+#logo-img{
+	height: 3vw;
+	width: 3vw;
+}
+
+#text1{
+      text-align: center;
+      color: red;
+	  text-shadow: 0.1vw 0.1vw black;
+}
+
+#p-h{
+	  text-align:center;
+	  color: red;
+	  text-shadow: 0.1vw 0.1vw black;
+
+}
+
+#product-image{
+	width:98%;
+}
+
